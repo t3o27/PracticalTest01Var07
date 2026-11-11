@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<Button
+    android:id="@+id/set_b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text = "Set"
+     />
+
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="2"
+        >
+
+
+        <EditText
+        android:id="@+id/left_top_edit"
+        android:layout_row="0"
+            android:layout_width="200dp"
+        android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/right_top_edit"
+            android:layout_row="0"
+            android:layout_width="200dp"
+
+            android:layout_column="1" />
+
+
+        <EditText
+            android:id="@+id/left_bottom_edit"
+            android:layout_row="1"
+            android:layout_width="200dp"
+
+            android:layout_column="0" />
+
+
+        <EditText
+            android:id="@+id/right_bottom_edit"
+            android:layout_row="1"
+            android:layout_width="200dp"
+
+            android:layout_column="1" />
+
+
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/random_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "Set"
+        />
+    </LinearLayout>
