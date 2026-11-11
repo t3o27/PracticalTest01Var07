@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        >
+
+
+        <EditText
+            android:id="@+id/left_top_edit1"
+            android:layout_row="0"
+            android:layout_width="200dp"
+            android:enabled="false"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/right_top_edit1"
+            android:layout_row="0"
+            android:layout_width="200dp"
+            android:enabled="false"
+            android:layout_column="1" />
+
+
+        <EditText
+            android:id="@+id/left_bottom_edit1"
+            android:layout_row="1"
+            android:layout_width="200dp"
+
+            android:enabled="false"
+            android:layout_column="0" />
+
+
+        <EditText
+            android:id="@+id/right_bottom_edit1"
+            android:layout_row="1"
+            android:layout_width="200dp"
+            android:enabled="false"
+
+            android:layout_column="1" />
+
+
+    </GridLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/but_sum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sum"/>
+        <Button
+            android:id="@+id/but_product"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Product"/>
+    </LinearLayout>
+</LinearLayout>

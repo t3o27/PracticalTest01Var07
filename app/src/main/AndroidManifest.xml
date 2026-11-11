@@ -21,6 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PracticalTest01var07SecondaryActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name=".PracticalTest01var07SErvice"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
